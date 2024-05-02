@@ -1,0 +1,431 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Just Me Again Down Here", sans-serif;
+}
+body .header {
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(0, 74, 173);
+  overflow: hidden;
+}
+body .header a:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+body .header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .header__logo {
+  font-size: 83px;
+  font-weight: 400;
+  line-height: 124.33px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 39px;
+  margin-right: auto;
+}
+body .header__menu-list {
+  display: flex;
+  list-style: none;
+}
+body .header__menu-item {
+  margin-right: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 59.92px;
+  text-align: left;
+}
+body .header__menu-item:last-child {
+  margin-right: 27px;
+}
+body .header__menu-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+body .header__menu-about {
+  width: 79px;
+  height: 48px;
+}
+body .header__menu-buy {
+  width: 149px;
+  height: 48px;
+}
+body .header__menu-wall {
+  width: 180px;
+  height: 48px;
+}
+body .header__button {
+  width: 151px;
+  height: 77px;
+  margin-right: 116px;
+  border: 0 solid rgb(255, 0, 0);
+  border-radius: 16px;
+  background-color: rgb(255, 0, 0);
+  font-family: Just Me Again Down Here;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 47.94px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+body .header__button:hover {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(48, 167, 167);
+  cursor: pointer;
+}
+body .header__main {
+  display: flex;
+  justify-content: space-between;
+}
+body .header__play {
+  max-width: 215px;
+  max-height: 169px;
+  margin-left: 204px;
+  margin-top: 156px;
+}
+body .header__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .header__title h1 {
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 215.71px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: -150px;
+}
+body .header__title p {
+  font-size: 76px;
+  font-weight: 400;
+  line-height: 113.85px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+body .header__title-social {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  margin-bottom: 24px;
+}
+body .header__title-line {
+  width: 602px;
+  height: 39px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 44px;
+}
+body .header__image {
+  position: relative;
+  top: 53px;
+  right: 20px;
+  margin-left: -30px;
+}
+body .main {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body .main a:hover {
+  color: rgba(146, 134, 248, 0.3);
+}
+body .main__info {
+  display: flex;
+}
+body .main__info-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+body .main__info-background {
+  width: 310px;
+  height: 310px;
+  background: rgb(0, 74, 173);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 60px;
+}
+body .main__info-image {
+  padding-top: 20px;
+}
+body .main__info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .main__info-text h2 {
+  max-width: 365px;
+  max-height: 78px;
+  font-size: 83px;
+  font-weight: 400;
+  line-height: 124.33px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+body .main__info-text p {
+  max-width: 841px;
+  max-height: 313px;
+  font-family: Long Cang;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+body .main__buy {
+  max-height: auto;
+  background-color: rgb(0, 74, 173);
+}
+body .main__buy-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body .main__buy h1 {
+  font-size: 99px;
+  font-weight: 400;
+  line-height: 148.3px;
+  text-align: left;
+  margin-left: 102px;
+  color: rgb(255, 255, 255);
+  margin-bottom: -80px;
+}
+body .main__buy-list {
+  display: grid;
+  grid-template-columns: 418px 306px 408px;
+  grid-template-rows: 296px 266px;
+  gap: 50px;
+  list-style: none;
+  margin-left: 60px;
+}
+body .main__buy-item h4 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 65.91px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: -10px;
+}
+body .main__buy-item p {
+  font-family: Long Cang;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+body .main__buy-img {
+  position: absolute;
+  top: 1140px;
+  right: 0;
+}
+body .main .last-item {
+  width: 349px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+body .main__gallery {
+  text-align: center;
+}
+body .main__gallery-comparison {
+  margin: 24px auto 0 auto;
+}
+body .main__gallery-mind {
+  margin-bottom: 79px;
+}
+body .footer {
+  width: auto;
+  max-height: 346px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+body .footer__text {
+  padding: 56px 70px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 65.91px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 430px) {
+  body .header__inner {
+    flex-wrap: wrap;
+  }
+  body .header__menu-list {
+    flex-wrap: wrap;
+    margin-left: 45px;
+    gap: 20px;
+  }
+  body .header__logo {
+    margin: 0 auto;
+    margin-bottom: -30px;
+  }
+  body .header__button {
+    position: absolute;
+    top: 180px;
+    left: 215px;
+  }
+  body .header__main {
+    margin: 0 auto;
+  }
+  body .header__play {
+    width: 68px;
+    height: 53px;
+    margin-left: 46px;
+    margin-top: 40px;
+    margin-right: -110px;
+  }
+  body .header__title {
+    margin: 0 auto;
+  }
+  body .header__title h1 {
+    font-family: Just Me Again Down Here;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 76.4px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+  body .header__title p {
+    font-family: Just Me Again Down Here;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44.94px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 55px;
+    margin-bottom: 63px;
+  }
+  body .header__title-social {
+    width: 220px;
+    margin-bottom: 27px;
+  }
+  body .header__title-line {
+    width: 338px;
+    height: 39px;
+    border-radius: 8px;
+  }
+  body .header__image {
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    margin-top: -20px;
+    margin-left: -100px;
+  }
+  body .main__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main__info-background {
+    width: 134px;
+    height: 134px;
+    margin: 36px auto 0 auto;
+  }
+  body .main__info-image {
+    width: 125px;
+    height: 127px;
+  }
+  body .main__info-text h2 {
+    width: 365px;
+    height: 78px;
+    font-family: Just Me Again Down Here;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 89.88px;
+    text-align: center;
+  }
+  body .main__info-text p {
+    width: 384px;
+    height: 222px;
+    font-family: Long Cang;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+  body .main__buy {
+    height: 1429px;
+    overflow: hidden;
+  }
+  body .main__buy h1 {
+    font-family: Just Me Again Down Here;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 89.88px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .main__buy-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+  }
+  body .main__buy-item h4 {
+    font-family: Just Me Again Down Here;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 56.92px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -26px;
+  }
+  body .main__buy-item p {
+    font-family: Long Cang;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  body .main__buy-img {
+    position: absolute;
+    width: 147px;
+    height: 143px;
+    top: 1170px;
+    left: 350px;
+  }
+  body .main__gallery {
+    text-align: center;
+  }
+  body .main__gallery-comparison {
+    width: 426px;
+    height: 426px;
+  }
+  body .main__gallery-island {
+    width: 405px;
+    height: 314px;
+  }
+  body .main__gallery-wells {
+    width: 401px;
+    height: 308px;
+  }
+  body .main__gallery-mind {
+    width: 405px;
+    height: 405px;
+  }
+  body .footer {
+    width: auto;
+    height: 344px;
+  }
+  body .footer__text {
+    padding: 37px 36px;
+    font-family: Just Me Again Down Here;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44.94px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
